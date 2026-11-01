@@ -2,7 +2,7 @@
   "label": "Korean image (GMSE01 revision 48)",
   "version": "GMSE01",
   "inventory_version": "GMSE01_KR",
-  "repository": "Aetherion28/SMS-AI-Decomp-KOR",
+  "repository": "Aetherion28/SMS-Decomp-KOR",
   "comparison_baseline": "GMSJ01",
   "extra_define": "VERSION_GMSE01_KR"
 }
