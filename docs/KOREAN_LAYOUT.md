@@ -39,5 +39,5 @@ The following functions still differ outside relocation fields or in size:
 | `initialize_bootAfter__12TApplicationFv` | `0x802A6DD0` | 688 |
 | `setupThreadFuncLogo__12TApplicationFv` | `0x802A70A0` | 804 |
 
-The per-function comparison is preserved in `assets/comparison-vs-us.json`.
+The per-function comparison against the US executable was made with `tools/regional_compare.py`; only the Korean image's own data is kept in this repository.
 No equivalence is inferred for these changed functions.
