@@ -18,7 +18,9 @@ The following exact byte-range equalities were checked before changing the confi
 | `0x803A4308–0x803AB658` | `0x803A4310–0x803AB660` | All bytes equal |
 
 The two string symbols' sizes, subsequent `.rodata` symbol addresses, and translation-unit split boundaries were updated accordingly.
-No C/C++ source was edited.
+The source models the two strings with `VERSION_GMSE01_KR`.
+`region.json` names that define as `extra_define`, and `configure.py` adds it to every object of the `GMSE01` build in this repository only.
+With it, `drawDVDErr` uses the Korean text and the string offsets match; US builds keep the US text.
 The corrected configuration rebuilds a DOL with the exact SHA-1 above.
 The original-object split and named-function addresses were validated before computing overlap.
 The original ISO and extracted linker map remain unchanged locally.

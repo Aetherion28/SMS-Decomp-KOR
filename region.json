@@ -3,5 +3,6 @@
   "version": "GMSE01",
   "inventory_version": "GMSE01_KR",
   "repository": "Aetherion28/SMS-AI-Decomp-KOR",
-  "comparison_baseline": "GMSJ01"
+  "comparison_baseline": "GMSJ01",
+  "extra_define": "VERSION_GMSE01_KR"
 }
